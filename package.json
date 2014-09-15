@@ -2,7 +2,10 @@
   "name": "yoda-speak",
   "version": "0.1.0",
   "description": "Yoda Speak API Wrapper for Node.js",
-  "repository": "https://github.com/Jeloi/node-yoda-speak",
+  "repository": {
+  	"type" : "git",
+  	"url" : "https://github.com/Jeloi/node-yoda-speak.git"
+  	},
   "main": "index.js",
   "scripts": {
     "test": "mocha"
