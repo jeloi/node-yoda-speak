@@ -1,0 +1,11 @@
+{
+  "name": "yoda-speak",
+  "version": "0.1.0",
+  "description": "Yoda Speak API Wrapper for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jeloi",
+  "license": "MIT"
+}
