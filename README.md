@@ -1,8 +1,7 @@
 Node Yoda Speak
 ===============
 
-Node.js wrapper for the Yoda Speak API on [Mashape.com](https://www.mashape.com/ismaelc/yoda-speak).
-
+Node.js wrapper for the Yoda Speak API
 ## Install
 
 ```sh
@@ -11,7 +10,7 @@ $ npm install --save yoda-speak
 
 ## Usage
 
-Load the module and initialize YodaSpeak with your Mashape API key.
+Load the module and initialize YodaSpeak.
 
 The convert function accepts your input text and a callback that takes the error and result as parameters:<br>
 `yoda.convert(text, callback(err, result));`
@@ -19,7 +18,7 @@ The convert function accepts your input text and a callback that takes the error
 Example:
 ```js
 var YodaSpeak = require('yoda-speak');
-var yoda = new YodaSpeak(YOUR_MASHAPE_API_KEY);
+var yoda = new YodaSpeak();
 
 yoda.convert("I'm really happy for you, and I'm going to let you finish, but this is the best Node package of all time.",
 	function(err, result) {

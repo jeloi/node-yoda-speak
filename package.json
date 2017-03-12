@@ -11,5 +11,8 @@
     "test": "mocha"
   },
   "author": "Jeloi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "soap": "^0.18.0"
+  }
 }
